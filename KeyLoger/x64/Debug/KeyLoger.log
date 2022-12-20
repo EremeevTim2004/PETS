@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(37,3): error C2664: "int GetWindowTextW(HWND,LPWSTR,int)": невозможно преобразовать аргумент 2 из "char [256]" в "LPWSTR"
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(37,29): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8931,1): message : см. объявление "GetWindowTextW"
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(37,3): message : при попытке сопоставить список аргументов "(HWND, char [256], int)"
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(154,35): error C2065: MAPVK_TO_CHAR: необъявленный идентификатор
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(44,20): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(173,39): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(190,73): error C2664: "int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)": невозможно преобразовать аргумент 2 из "const char [26]" в "LPCWSTR"
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(190,90): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9161,1): message : см. объявление "MessageBoxW"
+C:\Users\Тимур\Desktop\PETS\KeyLoger\main.cpp(190,73): message : при попытке сопоставить список аргументов "(int, const char [26], const char [6], long)"
